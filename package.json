@@ -1,6 +1,8 @@
 {
     "name": "mweb3-demo-waves",
     "version": "0.1.0",
+    "engines": {
+    "node": "10.16.2"
     "scripts": {
         "build": "webpack",
         "watch": "webpack --watch"
@@ -23,13 +25,5 @@
         "webpack": "^4.17.2",
         "webpack-cli": "^3.1.0"
     }
-    
-}
-{
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "node": "10.16.2"
-  }
+
 }
